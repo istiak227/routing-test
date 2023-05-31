@@ -5,7 +5,7 @@ const AuthContext = createContext()
 export function AuthProvider({ children }) {
     // const [authState, setAuthState] = useState({ isAuthenticated: false })
     const [isAuthenticated, setisAuthenticated] = useState(true)
-    const userType = "1"
+    const userType = "3"
 
     const value = {
         isAuthenticated,

@@ -29,6 +29,23 @@ export function ClientLayout() {
   );
 }
 
+export function ImagePanelLayout() {
+  return (
+    <div>
+      <h1>Image Layout</h1>
+      <h1>Image Layout</h1>
+      <h1>Image Layout</h1>
+      <h1>Image Layout</h1>
+      <Outlet />
+      <h1>Image Layout</h1>
+      <h1>Image Layout</h1>
+      <h1>Image Layout</h1>
+      <h1>Image Layout</h1>
+    </div>
+  )
+
+}
+
 export function PublicLayout() {
   console.log("Im in public route")
   return (
@@ -39,3 +56,4 @@ export function PublicLayout() {
     </div>
   );
 }
+
